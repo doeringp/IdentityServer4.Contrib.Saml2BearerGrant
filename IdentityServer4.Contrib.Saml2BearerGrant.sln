@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer4.Contrib.Saml2BearerGrant", "src\IdentityServer4.Contrib.Saml2BearerGrant\IdentityServer4.Contrib.Saml2BearerGrant.csproj", "{A18C8DBE-DE12-48E5-A8BA-B5D16C7FDE7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer4.Contrib.Saml2BearerGrant.Tests", "test\IdentityServer4.Contrib.Saml2BearerGrant.Tests\IdentityServer4.Contrib.Saml2BearerGrant.Tests.csproj", "{B17393B8-798D-44A4-BA08-1F3DCD4892B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A18C8DBE-DE12-48E5-A8BA-B5D16C7FDE7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A18C8DBE-DE12-48E5-A8BA-B5D16C7FDE7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A18C8DBE-DE12-48E5-A8BA-B5D16C7FDE7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A18C8DBE-DE12-48E5-A8BA-B5D16C7FDE7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B17393B8-798D-44A4-BA08-1F3DCD4892B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B17393B8-798D-44A4-BA08-1F3DCD4892B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B17393B8-798D-44A4-BA08-1F3DCD4892B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B17393B8-798D-44A4-BA08-1F3DCD4892B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85CA6257-99F1-43B5-868C-6CC3D4EA4015}
+	EndGlobalSection
+EndGlobal
