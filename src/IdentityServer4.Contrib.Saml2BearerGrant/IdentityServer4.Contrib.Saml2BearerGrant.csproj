@@ -14,7 +14,8 @@ New grant types "urn:ietf:params:oauth:grant-type:saml2-bearer" and "urn:ietf:pa
 You can add the extension grant types to IdentityServer using the extension builder methods AddSamlBearerGrant() and AddSaml2BearerGrant().
 
 This extension was built for legacy applications using SAML or WS-Federation authentication to change SAML assertions for OAuth2 access tokens.
-</Description>
+  </Description>
+  <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
