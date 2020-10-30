@@ -26,7 +26,7 @@ which was the subject of the SAML assertion.
 
 ## .NET and IdentityServer Support
 
-This library is targeting .NET Standard 2.0 and IdentityServer4 release 2.3.
+This library is targeting .NET Core 3.1 and IdentityServer4 release 3.0.0+.
 
 ## How to use
 
