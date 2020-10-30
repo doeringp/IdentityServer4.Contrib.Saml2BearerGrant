@@ -19,7 +19,7 @@ This extension was built for legacy applications using SAML or WS-Federation aut
 
   <ItemGroup>
     <PackageReference Include="IdentityServer4" Version="3.0.0" />
-    <PackageReference Include="Microsoft.IdentityModel.Tokens.Saml" Version="5.3.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens.Saml" Version="6.8.0" />
   </ItemGroup>
 
 </Project>
