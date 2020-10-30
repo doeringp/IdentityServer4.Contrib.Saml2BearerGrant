@@ -16,6 +16,9 @@ You can add the extension grant types to IdentityServer using the extension buil
 This extension was built for legacy applications using SAML or WS-Federation authentication to change SAML assertions for OAuth2 access tokens.
   </Description>
   <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  <PackageProjectUrl>https://github.com/doeringp/IdentityServer4.Contrib.Saml2BearerGrant</PackageProjectUrl>
+  <RepositoryUrl>https://github.com/doeringp/IdentityServer4.Contrib.Saml2BearerGrant</RepositoryUrl>
+  <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
