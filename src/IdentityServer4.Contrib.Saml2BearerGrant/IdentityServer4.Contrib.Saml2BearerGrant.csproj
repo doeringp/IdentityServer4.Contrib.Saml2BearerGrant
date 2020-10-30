@@ -5,7 +5,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Peter Doering</Authors>
     <PackageTags>saml2;identityserver</PackageTags>
-    <Version>2.0.0</Version>
+    <Version>3.0.0</Version>
     <Description>Extension grant types for IdentityServer4 implementing a subset of RFC 7522 (https://tools.ietf.org/html/rfc7522).
 
 Adds support for SAML 2.0 and SAML 1.1 assertions as grant for token requests.
