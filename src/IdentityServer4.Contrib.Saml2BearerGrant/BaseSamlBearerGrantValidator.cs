@@ -13,6 +13,7 @@ using Microsoft.IdentityModel.Tokens.Saml2;
 using Microsoft.IdentityModel.Xml;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
@@ -79,7 +80,9 @@ namespace IdentityServer4.Contrib.Saml2BearerGrant
                 return;
             }
 
-            IEnumerable<SecurityKey> signingKeys = await _keys.GetValidationKeysAsync();
+            IEnumerable<SecurityKeyInfo> signingKeysInfos = await _keys.GetValidationKeysAsync();
+            List<SecurityKey> signingKeys = signingKeysInfos.Select(e => e.Key).ToList();
+
             string idSrvIssuerUri = _httpContextAccessor.HttpContext.GetIdentityServerIssuerUri();
             var lifetimeValidator = new LifetimeValidator(_systemClock);
 

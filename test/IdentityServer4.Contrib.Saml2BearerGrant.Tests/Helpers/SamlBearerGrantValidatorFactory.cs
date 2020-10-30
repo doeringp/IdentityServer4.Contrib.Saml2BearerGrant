@@ -1,5 +1,6 @@
 ﻿using IdentityServer4.Configuration;
 using IdentityServer4.Extensions;
+using IdentityServer4.Models;
 using IdentityServer4.Services;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Http;
@@ -45,7 +46,8 @@ namespace IdentityServer4.Contrib.Saml2BearerGrant.Tests.Helpers
                 .Returns(Task.FromResult(SigningCredentials));
 
             keys.Setup(x => x.GetValidationKeysAsync())
-                .Returns(Task.FromResult(new[] { SigningCredentials.Key }.AsEnumerable()));
+                .Returns(Task.FromResult(
+                    new[] { new SecurityKeyInfo { Key = SigningCredentials.Key } }.AsEnumerable()));
 
             var systemClock = new SystemClock();
 
