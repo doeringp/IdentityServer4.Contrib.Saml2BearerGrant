@@ -30,6 +30,11 @@ This library is targeting .NET Core 3.1 and IdentityServer4 release 3.0.0+.
 
 ## How to use
 
+You can install the package with [nuget](https://www.nuget.org/packages/IdentityServer4.Contrib.Saml2BearerGrant):
+```
+Install-Package IdentityServer4.Contrib.Saml2BearerGrant
+```
+
 ### Server
 
 ```csharp
